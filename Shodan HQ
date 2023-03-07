@@ -1,0 +1,146 @@
+# Shodan HQ Synopsis
+Provide an overview of the tool and include the following:
+* What the tool provides:       
+
+        Shodan is a search engine that allows users to search for internet-connected devices, such as servers, routers, webcams, and other IoT devices. The tool provides information about the devices, including their location, software running on them, open ports, and other technical details. This information can be used by security researchers, IT professionals, and hackers to assess the security posture of the devices and identify vulnerabilities that could be exploited in attacks.
+
+        Shodan allows users to search for devices using keywords, such as the type of device, the software running on it, or other technical details. It also provides filters that allow users to narrow their search results by location, port number, or other criteria.
+
+        In addition to searching for devices, Shodan also provides other features and services. For example, it offers a paid subscription service called Shodan Monitor, which allows users to set up alerts for specific keywords or types of devices. It also has an API that allows developers to build applications and integrations using Shodan's data.
+
+* Who developed the tool?
+    
+        Shodan was developed by John Matherly, a computer programmer from Austin, Texas. He created the tool in 2009 as a way to search for vulnerable devices on the internet. Since then, Shodan has become a popular tool for security researchers, IT professionals, and hackers.
+
+* If it's open source, when was the last version developed? Or how often is it updated?
+
+        Shodan is not an open-source tool. While it does offer an API that allows developers to build applications and integrations using its data, the tool itself is not available for download or modification by the general public.
+
+        However, Shodan does undergo regular updates and improvements to its functionality and data. These updates are ongoing and are aimed at improving the accuracy and completeness of the information provided by the tool. Shodan's team of developers and researchers work to keep up with the constantly changing landscape of internet-connected devices and to add new features and capabilities to the tool as needed
+    
+* Where can you go for more detailed documentation?
+
+        For more detailed documentation on Shodan, you can visit the official Shodan website at www.shodan.io. The website offers a comprehensive user guide that provides detailed information on how to use the tool, including search operators, filters, and other advanced features.
+
+        Additionally, Shodan offers a developer API that allows developers to integrate Shodan's data into their own applications. The API documentation is also available on the Shodan website and provides detailed information on how to use the API to access and retrieve data from Shodan.
+
+        Finally, Shodan has an active user community and online forums where users can share information, ask questions, and provide feedback on the tool. These resources can be a valuable source of information for users who are looking to learn more about the tool or to connect with others who are using it for similar purposes.
+
+## Setup
+* How do you use the tool?
+
+    To use Shodan, you will need to create a free account on the Shodan website at www.shodan.io. Once you have created an account, you can begin using the search functionality to search for internet-connected devices.
+
+    Here are the basic steps to using Shodan:
+
+       1. Log in to your Shodan account at www.shodan.io.
+
+       2. In the search bar at the top of the page, enter a search query using keywords related to the device or information you are looking for. For example, you could enter "webcam" to search for internet-connected webcams.
+
+       3. Use the search filters on the left-hand side of the page to narrow your search results by location, port number, operating system, and other criteria.
+
+       4. Click on a device in the search results to view more detailed information about it, including its IP address, location, open ports, and other technical details.
+
+       5. Use the information provided by Shodan to assess the security posture of the device and identify potential vulnerabilities that could be exploited in attacks.
+
+    In addition to the basic search functionality, Shodan also offers advanced features and services, such as the ability to set up alerts for specific keywords or types of devices, and an API that allows developers to integrate Shodan's data into their own applications.
+ 
+* Does it require installation? 
+
+        No, Shodan does not require installation. It is a web-based tool that can be accessed through a web browser on any device with an internet connection. To use Shodan, you simply need to create an account on the Shodan website at www.shodan.io and log in to access the search functionality and other features.
+
+        However, Shodan does offer an API that allows developers to build applications and integrations using its data. To use the API, developers will need to sign up for a separate API account and follow the instructions provided in the API documentation to access and retrieve data from Shodan.
+
+* Does it require any license? 
+
+        Shodan offers both free and paid subscription plans for its services. The free plan provides limited access to search results and some features of the tool, while the paid plans offer more advanced features and higher search result limits.
+
+        The paid subscription plans are billed on a monthly or annual basis and range in price from $49 per month to $499 per month, depending on the level of access and functionality required.
+
+        In addition to the subscription plans, Shodan also offers a developer API that allows developers to build applications and integrations using Shodan's data. Access to the API is also available through paid subscription plans, with pricing based on the level of access and usage required.
+
+        So, while a license is not required to use Shodan's basic search functionality, access to certain features and services may require a paid subscription or API access.
+
+* Is there an academic license available?
+
+        Yes, Shodan does offer academic licenses for qualified institutions and individuals. The academic licenses provide access to the same features and services as the paid subscription plans, but at a discounted rate for educational purposes.
+
+        To apply for an academic license, you will need to fill out an online application form on the Shodan website and provide proof of your academic affiliation, such as a university email address or official letter from your institution.
+
+## Input
+What input do you provide to the tool?
+
+ The input that you provide to Shodan depends on the specific search query that you want to perform. In general, Shodan searches for internet-connected devices and systems using various search operators and filters to refine the results.
+
+ Here are some examples of the input that you can provide to Shodan:
+
+* Keywords: You can enter keywords related to the type of device or information you are looking for, such as "webcam", "printer", "router", "SCADA", "Apache", etc.
+
+* IP addresses or CIDR blocks: You can search for specific IP addresses or ranges of IP addresses using CIDR notation, such as "192.168.0.1" or "192.168.0.0/24".
+
+* Port numbers: You can search for devices that have specific open ports, such as port 80 (HTTP), port 443 (HTTPS), port 22 (SSH), etc.
+
+* Operating systems: You can search for devices that are running specific operating systems, such as "Windows", "Linux", "Unix", etc.
+
+* Geolocation: You can search for devices that are located in specific geographic regions or countries, using search operators such as "country:", "city:", "geo:", etc.
+
+* Other search filters: Shodan also provides a variety of other search filters that you can use to refine your search results, such as organization name, device type, and more.
+
+* By providing specific search queries and filters, you can use Shodan to discover internet-connected devices, systems, and services that may be vulnerable to attack or otherwise of interest for research or investigative purposes.
+
+In what form do you need to provide the input?
+
+    To provide input to Shodan, you can use the search bar on the Shodan website or enter search queries via the API. The input can be in the form of keywords, IP addresses, port numbers, operating systems, geolocation data, and other search filters, as described in my previous answer.
+
+In particular, can you provide anything related to an organization?
+
+    You can use Shodan to search for devices and systems that are associated with specific organizations by using the "org:" search filter. This allows you to identify internet-connected devices that belong to a particular organization, and can be useful for research, vulnerability assessments, and other purposes.
+
+What are some interesting command line switches or special search criteria?
+
+* "has_screenshot:true" - This filter returns only results that have a screenshot available, which can be useful for quickly identifying vulnerable devices.
+
+* "ssl:cert_expired:true" - This filter returns only results for devices with expired SSL certificates, which can be a sign of poor security practices.
+
+*  "product:Apache" - This filter returns only results for devices that are running Apache web server software.
+
+Is there an API available that you can programmatically access?
+
+    Yes, Shodan provides a developer API that allows you to programmatically access its search functionality and other features. The API can be used to build applications and integrations that leverage Shodan's data and search results. To access the API, you will need to sign up for an API account and follow the API documentation to make requests and retrieve data. The API is available through paid subscription plans, with pricing based on the level of access and usage required.
+
+## Output Summary
+Describe the output from the tool
+
+    The output from Shodan provides information about internet-connected devices and systems that match your search query. The information provided can include device type, IP address, open ports, operating system, software version, geolocation, organization name, and more.
+
+In what form is the output provided?
+
+The output is provided in the form of search results, which can be displayed in various formats depending on how you access Shodan:
+
+*  On the Shodan website: Search results are displayed as a list of devices with basic information about each one, such as IP address, country, and hostname. You can click on a device to see more detailed information about it, including open ports, banners, and other data.
+
+* Via the command line: If you use the Shodan command-line interface (CLI), search results are displayed in a table format with columns for device type, IP address, port, and more.
+
+* Via the API: If you use the Shodan API to retrieve search results, the output is provided in JSON format, which can be parsed by your application or script. Each search result is represented as a JSON object that includes various fields corresponding to the device's attributes and metadata.
+
+## Output Mapping to STIX 2.1
+Explain how the output can be mapped to schema fields in STIX 2.1
+
+    Shodan output can be mapped to STIX 2.1 using a mapping of the relevant fields in the Shodan output to the corresponding STIX 2.1 fields. Here are some examples of how Shodan output can be mapped to STIX 2.1:
+
+        1. IP address: The "ip_str" field in Shodan output can be mapped to the "ipv4-addr.value" field in STIX 2.1.
+
+        2. Device type: The "product" or "os" fields in Shodan output can be mapped to the "device.type" field in STIX 2.1.
+
+        3. Open ports: The "ports" field in Shodan output can be mapped to the "network-traffic.src_port" or "network-traffic.dst_port" fields in STIX 2.1, depending on whether the port is a source or destination port.
+
+        4. Operating system: The "os" field in Shodan output can be mapped to the "operating-system.name" field in STIX 2.1.
+
+        5. Geolocation: The "latitude" and "longitude" fields in Shodan output can be mapped to the "location.latitude" and "location.longitude" fields in STIX 2.1, respectively.
+
+    Other fields in Shodan output, such as banners, metadata, and organization information, can also be mapped to relevant STIX 2.1 fields depending on the context and use case.
+
+    Mapping Shodan output to STIX 2.1 can provide a standardized and structured representation of the information gathered by Shodan, which can be useful for sharing and exchanging threat intelligence. However, it's important to note that this mapping is not a one-to-one correspondence and may require some customization and interpretation depending on the specific use case.
+
+## Example
+Provide an example use of the tool through text or screenshots. If it's possible to provide an organization as input, use UA Little Rock as the organization.
